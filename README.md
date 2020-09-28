@@ -40,7 +40,9 @@ python test.py --checkpoints_dir=./samples/models --name GanAuxPretrained --mode
 ```
 
 ## Datasets
-The full dataset that we have used for training, which we borrow from [this work](https://github.com/CompVis/adaptive-style-transfer), can be downloaded [here]().
+The full dataset that we have used for training is the same one as in [this work](https://github.com/CompVis/adaptive-style-transfer).
+
+<!--, can be downloaded [here](). -->
 
 ## Results
 
