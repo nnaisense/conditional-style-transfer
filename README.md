@@ -1,7 +1,7 @@
 ## Two-Stage Peer-Regularized Feature Recombination for Arbitrary Image Style Transfer
 [Paper on arXiv](https://arxiv.org/pdf/1906.02913.pdf)
 
-Public PyTorch implementation of two-stage peer-regularized feature recombination for arbitrary iamge style transfer presented at CVPR 2020.
+Public PyTorch implementation of two-stage peer-regularized feature recombination for arbitrary image style transfer presented at CVPR 2020.
 The model is trained on a selected set painters and generalizes well even to previously unseen style during testing.
 
 <div align="center"><img src="imgs/teaser.png"  width="384" height="512" /></div>
@@ -14,7 +14,7 @@ The repository contains the code that we have used to produce some of the main r
 
 ## Running examples
 
-In order to get reasonable runtime, the code has to be run on a GPU. The code is multi-gpu ready. We ahve used 2 GPUs for training and a single GPU during test time. We have been running our code on a *Nvidia Titan X (Pascal) 12GB GPU*. Basic system requirements are to be found [here](docs/dependencies.md).
+In order to get reasonable runtime, the code has to be run on a GPU. The code is multi-gpu ready. We have used 2 GPUs for training and a single GPU during test time. We have been running our code on a *Nvidia Titan X (Pascal) 12GB GPU*. Basic system requirements are to be found [here](docs/dependencies.md).
 
 Should you encounter some issues running the code, please first check [Known issues](docs/issues.md) and then consider opening a new issue in this repository.
 
